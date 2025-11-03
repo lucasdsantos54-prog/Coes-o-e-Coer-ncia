@@ -1,0 +1,22 @@
+function responder(pergunta, resposta) {
+    let feedbackId = 'feedback' + pergunta;
+    let feedback = document.getElementById(feedbackId);
+    
+    if (pergunta === 1) {
+        if (resposta === 'e') {
+            feedback.textContent = 'Correto! "E" conecta as ações.';
+            feedback.style.color = 'green';
+        } else {
+            feedback.textContent = 'Incorreto. Tente novamente.';
+            feedback.style.color = 'red';
+        }
+    } else if (pergunta === 2) {
+        if (resposta === 'ideias se conectam logicamente') {
+            feedback.textContent = 'Correto! Coerência é sobre lógica.';
+            feedback.style.color = 'green';
+        } else {
+            feedback.textContent = 'Incorreto. Pense na lógica das ideias.';
+            feedback.style.color = 'red';
+        }
+    }
+}
