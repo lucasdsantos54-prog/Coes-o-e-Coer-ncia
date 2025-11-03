@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coesão e Coerência</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Coesão e Coerência Textual</h1>
+        <p>Aprenda a conectar ideias de forma clara e lógica em textos.</p>
+    </header>
+    
+    <section id="definicoes">
+        <h2>O que são Coesão e Coerência?</h2>
+        <p><strong>Coesão</strong>: É a ligação entre as partes do texto, usando conectivos (ex.: e, mas, porque) e repetições para fluir naturalmente.</p>
+        <p><strong>Coerência</strong>: É a lógica interna, onde as ideias fazem sentido juntas, sem contradições.</p>
+    </section>
+    
+    <section id="exemplos">
+        <h2>Exemplos</h2>
+        <div class="exemplo">
+            <h3>Texto com boa coesão e coerência:</h3>
+            <p>João gosta de ler livros. Ele prefere ficção científica porque imagina mundos futuros. No entanto, às vezes lê romances para relaxar.</p>
+        </div>
+        <div class="exemplo">
+            <h3>Texto sem coesão (mas coerente):</h3>
+            <p>João gosta de ler livros. Prefere ficção científica. Imagina mundos futuros. Às vezes lê romances. Relaxa.</p>
+        </div>
+    </section>
+    
+    <section id="quiz">
+        <h2>Quiz Interativo</h2>
+        <p>Responda às perguntas para testar seu conhecimento.</p>
+        <div id="pergunta1">
+            <p>1. Qual conectivo melhora a coesão nesta frase: "Ele foi ao mercado. Comprou frutas."?</p>
+            <button onclick="responder(1, 'e')">e</button>
+            <button onclick="responder(1, 'mas')">mas</button>
+            <button onclick="responder(1, 'porque')">porque</button>
+            <p id="feedback1"></p>
+        </div>
+        <div id="pergunta2">
+            <p>2. Um texto é coerente se:</p>
+            <button onclick="responder(2, 'ideias se conectam logicamente')">ideias se conectam logicamente</button>
+            <button onclick="responder(2, 'usa muitas palavras difíceis')">usa muitas palavras difíceis</button>
+            <button onclick="responder(2, 'é longo')">é longo</button>
+            <p id="feedback2"></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Site educativo sobre coesão e coerência. Desenvolvido com HTML/CSS/JS.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
